@@ -1,0 +1,29 @@
+*{
+  font-family: 'Prompt', sans-serif;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.footer{
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.header{
+  margin-bottom: 20px;
+}
+
+.material-icons{
+  display: inline-flex;
+  vertical-align: text-bottom;
+}

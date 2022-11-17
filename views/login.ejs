@@ -1,0 +1,30 @@
+<%- include('header') %>
+    <form action="/login" method="post">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-title">
+                    <span class="material-icons material-symbols-outlined">
+                        computer
+                    </span>
+                    Login เข้าสู่ระบบ
+                </div>
+                <div>
+                    <label>Username</label>
+                    <div><input type="text" name="username" class="form-control"></div>
+                </div>
+                <div class="mt-2">
+                    <label for="">Password</label>
+                    <div><input type="password" name="password" class="form-control"></div>
+                </div>
+                <div class="mt-2">
+                    <button class="btn btn-info">
+                        <span class="material-icons material-symbols-outlined">
+                            done
+                        </span>
+                        Login
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <%- include('footer') %>
